@@ -240,19 +240,19 @@ color: #FFF;
     color: black;
 }
 
-.btn button{
+.bt button{
     padding: 10px 15px;
     
-    color: black;
+    color: white;
     border: none;
 border-radius: 30px;
 cursor: pointer;
 transition: 5s all ease;
-margin-top: 8px;
+margin-top: 8px;}
 
 
 
-}
+
 
 .btun button{
     padding: 10px 15px;
@@ -264,7 +264,7 @@ margin-top: 8px;
         transition: 5s all ease;
         margin-top: 8px;
 }
-.btn button:hover{
+.bt button:hover{
     background-color: tomato;
     color: white;
     transition: .5s all ease;
@@ -741,7 +741,7 @@ align-items: center;
 .detail-rate {
     width: 290px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    padding: 40px 15px;
+    padding: 20px 15px;
     margin-top: 70px;
 }
 
