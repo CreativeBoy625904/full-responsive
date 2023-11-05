@@ -6,7 +6,7 @@
 }
 .container{
     margin: 0 auto;
-    width: 1200px;
+    width: 1160px;
 }
 
 .list {
@@ -110,29 +110,26 @@ color: #FFF;
        
 }
 
-
+.btn button{
+    background-color: #E76F51;
+}
 .btn button a{
     text-decoration: none;
     margin-top: 11px;
     color: white;
+   
 }
 
 
 /* ,,,,,,------right side detail-------- */
+
 .right-side-detail{
-    position: relative;
+    background-image: url(./image/Group\ 33068.png);
+    background-repeat: no-repeat;
+    background-position: top 15% right 40px;
 }
 
-.banner-img {position: absolute;
-top: 35px;
-right: 30px;
-width: 101px;
-height: 101px;
 
-}
-.honda-cvr{
-    z-index: 2;
-}
 
 /* .......................------------------feature details------------ */
 .feature-body{
@@ -182,7 +179,7 @@ height: 101px;
     width: 350px;
 }
 .frist-img img{
-    filter: opacity(.5);
+  filter: grayscale(100%);
 }
 .second-img{
     width: 350px;
@@ -214,7 +211,7 @@ height: 101px;
 }
 
 .card-detail{
-    width: 350px;
+    width: 370px;
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 12px 13px;
@@ -245,7 +242,7 @@ height: 101px;
 
 .btn button{
     padding: 10px 15px;
-    background-color: tomato;
+    
     color: black;
     border: none;
 border-radius: 30px;
@@ -255,6 +252,17 @@ margin-top: 8px;
 
 
 
+}
+
+.btun button{
+    padding: 10px 15px;
+    background-color: tomato;
+        color: black;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 5s all ease;
+        margin-top: 8px;
 }
 .btn button:hover{
     background-color: tomato;
@@ -300,7 +308,7 @@ margin-top: 8px;
 }
 
 .detail-rate{
-    width: 300px;
+    width: 370px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     padding: 40px 35px;
 }
@@ -394,6 +402,7 @@ color: #252B42;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 10px 13px;
     margin-bottom: 20px;
+        transition: 5s all ease;
 }
 .frist-detail h1{
     color: #383838;
@@ -402,22 +411,35 @@ color: #252B42;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
+    
       
 }
-.frist-detail p{
+
+.frist-detail:hover p{
+    display: block;
+    transition: .5s all ease;
+}
+.p p{
     color: #7E848C;
       
         font-family: Inter;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
+        display: none;
         
 }
+
+
+
 
 /* < !-- ------------------------------footer start-------------------------- --> */
 
 
-
+#full-footer{
+    background-color: black;
+    width: 100%;
+}
 
 
 .footer{
@@ -620,11 +642,13 @@ align-items: center;
 
 /* ,,,,,,------right side detail-------- */
 .right-side-detail {
-    position: relative;
+ background-position: right 20px top 15%;
+ background-size: 80px;
     margin-top: 30px;
+
 }
 
-.banner-img {
+/* .banner-img {
     position: absolute;
     top: 35px;
     right: 30px;
@@ -634,7 +658,7 @@ align-items: center;
 
 
 
-}
+} */
  .honda-cvr{
     width: 280px;
   
@@ -746,7 +770,6 @@ align-items: center;
 
 .frist-detail p {
     color: #7E848C;
-
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -806,6 +829,6 @@ margin: 20px 0;
 
 
 
-     
+
 }
 
